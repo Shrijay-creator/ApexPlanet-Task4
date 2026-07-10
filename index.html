@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Shrijay Sinha</h1>
+
+<nav>
+
+<a href="#home">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#todo">To-Do</a>
+
+<a href="#products">Products</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section id="home">
+
+<h2>Welcome</h2>
+
+<p>
+Welcome to my Portfolio Website.
+</p>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a Web Development Intern at ApexPlanet.
+</p>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project">
+
+<h3>Weather App</h3>
+
+<p>Built using HTML CSS JavaScript API.</p>
+
+</div>
+
+<div class="project">
+
+<h3>Image Carousel</h3>
+
+<p>Interactive image slider.</p>
+
+</div>
+
+</section>
+
+<section id="todo">
+
+<h2>To Do List</h2>
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter Task">
+
+<button onclick="addTask()">
+Add
+</button>
+
+<ul id="taskList">
+
+</ul>
+
+</section>
+
+<section id="products">
+
+    <h2>Products</h2>
+
+    <select id="filter" onchange="filterProducts()">
+
+        <option value="all">All Products</option>
+
+        <option value="Electronics">Electronics</option>
+
+        <option value="Clothing">Clothing</option>
+
+    </select>
+
+    <div id="productContainer">
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email :
+shrijay231b326@gmail.com</p>
+
+</section>
+
+<script src="script.js"></script>
+
+<footer>
+
+<p>© 2026 Shrijay Sinha | ApexPlanet Internship</p>
+
+</footer>
+
+</body>
+
+</html>
