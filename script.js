@@ -83,7 +83,7 @@ const products = [
     name:"T-Shirt",
     category:"Clothing",
     price:800,
-    image:"images/T-Shirt.jpg"
+    image:"images/tshirt.jpg"
 },
 
 {
